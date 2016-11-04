@@ -14,7 +14,7 @@ var famousPeople = [
 {
 	title: "Inventor & Chemist",
 	name: "Hazel Bishop",
-	bio: "Hazel Bishop is the inventor of smear-proof lipstick. In 1971, Hazel Bishop became the first female member of the Chemists’ Club in New York.",
+	bio: "Hazel Bishop is the inventor of smear-proof lipstick. In 1971, Hazel Bishop became the first female member of the Chemists' Club in New York.",
 	image: "http://i273.photobucket.com/albums/jj238/beckyingj/Hazel%20Bishop/bishopformal.jpg",
 	lifespan: {
 		birth: 1906,
