@@ -12,9 +12,12 @@ function displayData(){
 
 		// Sort through the array 
 		getinfo = famousPeople[i];
-		header.innerHTML = getinfo.name + ", " + getinfo.title; 
-		section.innerHTML  = getinfo.bio /*+ "<img src=" + getinfo.image + ">"*/;
-		footer.innerHTML = getinfo.lifespan.birth + "-" + getinfo.lifespan.death;
+		div.classList = "personContainer";
+		
+		div.id = "person" + i;
+		header.innerHTML  = getinfo.name + ", " + getinfo.title; 
+		section.innerHTML = "<img src=" + getinfo.image + ">" + getinfo.bio;
+		footer.innerHTML  = getinfo.lifespan.birth + "-" + getinfo.lifespan.death;
 
 		// Append and output
 		div.appendChild(header);
@@ -23,6 +26,23 @@ function displayData(){
 		output.appendChild(div);
 	};
 
+	addListeners();
 }
+
+
+function addBorders() {
+	console.log("addBorders works!");  
+}
+
+
+function addListeners(){
+	var personContainer = document.getElementsByClassName("personContainer");
+
+	for (var i = 0; i < personContainer.length; i++) {
+  		personContainer[i].addEventListener("click", addBorders);
+ 	 	console.log("Is this loop working?"); 
+		}
+}
+
 
 window.addEventListener("load", displayData());

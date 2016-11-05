@@ -5,17 +5,24 @@ body {
 
 article {
 	margin: 30px 0;
+	width: 70%;
 }
 
-img {
-	width: 20%;
-
-}
-
-header {
+article header {
 	font-weight: bold;
+	border-bottom: 1px solid #B7D5D6;
+	margin: 10px 0;
 }
 
-section {
-	
+section img {
+	max-width: 175px;
+	margin: 0 15px 0 0;
+	float: left;
+
+}
+
+article footer {
+	clear: both;
+	margin: 10px 0 0 50px;
+	padding: 10px 0;
 }
