@@ -26,3 +26,15 @@ article footer {
 	margin: 10px 0 0 50px;
 	padding: 10px 0;
 }
+
+.border {
+	border: 2px dotted black; 
+}
+
+.yellow {
+	background: #FFFDD0;
+}
+
+.blue {
+	background: #DDF1F0;
+}
